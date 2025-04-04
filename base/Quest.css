@@ -1,0 +1,84 @@
+/*Начало викторины*/
+.container{
+    position: absolute;
+    background: linear-gradient(rgb(228, 66, 7) 10%, #fff );
+    height: 750px;
+    width: 1490px;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.main h1{
+    font-family: 'Roboto Slab';
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.main p{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 500px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 90px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgba(228, 66, 7, 0.759);
+    color: #fff;
+}
+
+/*первый вопрос*/
+
+.main_2{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.main_2 h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main_2 h2{
+    text-align: center;
+}
+
+.elm{
+    list-style-type: none;
+    margin-top: 10px;
+    width: 400px;
+    height: 60px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
